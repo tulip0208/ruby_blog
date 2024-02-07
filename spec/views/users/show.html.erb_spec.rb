@@ -21,7 +21,7 @@ RSpec.describe 'users/show.html.erb', type: :feature do
     expect(page).to have_selector("img[src*='#{@author.photo}']")
   end
 
-  it 'should show the author name' do
+  it 'should show the author name' do         
     expect(page).to have_content(@author.name)
   end
 
