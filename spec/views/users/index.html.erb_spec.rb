@@ -14,7 +14,7 @@ RSpec.describe 'users/index.html.erb', type: :feature do
 
   it 'should show users name' do
     expect(page).to have_content @author.name
-    expect(page).to have_content @user.name
+    expect(page).to have_content @user.name       
   end
 
   it 'shows the profile picture of each user' do
